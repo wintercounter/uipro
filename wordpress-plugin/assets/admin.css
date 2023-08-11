@@ -1,0 +1,25 @@
+#uiprosettings{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 400px;
+}
+
+#uiprosettings label{
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0px;
+}
+
+#uiprosettings input, #uiprosettings select{
+    float: right;
+}
+
+#uiprosettings .uipro_alert{
+    display: block;
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 20px 0;
+}
