@@ -1,0 +1,389 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'swis721_btroman';
+    src: url('../font/swiss-721-bt-70631-webfont.eot');
+    src: url('../font/swiss-721-bt-70631-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/swiss-721-bt-70631-webfont.woff') format('woff'),
+         url('../font/swiss-721-bt-70631-webfont.ttf') format('truetype'),
+         url('../font/swiss-721-bt-70631-webfont.svg#swis721_btroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+			margin-left: auto;
+  margin-right: auto;
+	background-image:url(../img/01.png);
+
+	height:1500px;
+
+		}
+.black{margin-left: auto;
+  margin-right: auto;
+	background-image:url(../img/02.png);
+	width:100%;
+	height:20px;}
+	
+.content{margin-left: auto;
+  margin-right: auto;
+  background:#FFF;
+  width:980px;
+  height:1180px;
+  
+	}
+
+
+.footermenu {margin-left: auto;
+  margin-right: auto;
+  width:980px;
+  height:60px;	
+	margin-left: auto;
+  margin-right: auto;
+
+	}
+.footermenu ul {
+		
+		width:980px;
+		overflow:hidden;
+				position:relative;
+				list-style:none;
+		font-family:"Times New Roman", Times, serif;
+			font-size:18px;
+			color:#000;
+	
+		}
+.footermenu ul li {	
+			float:left;
+						padding:0 21px 0 0;
+			font-family:"Times New Roman", Times, serif;
+			font-size:18px;
+			color:#000;
+			}
+.footermenu ul li:first-child {
+			background:none;
+			}
+.footermenu ul li a {
+				float:left;
+				text-decoration:none;
+					padding:9px 0 9px 0;
+					font-family:"Times New Roman", Times, serif;
+			font-size:18px;
+			color:#000;
+				}
+.footermenu ul li a:hover {
+					text-decoration:none;
+		
+				
+		overflow:hidden;
+		padding:9px 0 9px 0;
+		position:relative;
+		
+				}
+.footermenucenter{
+	position:relative;
+	margin-left: auto;
+  margin-right: auto;
+  padding-left:150px;
+}
+
+
+.v{
+	position:relative;
+	float:left;font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a7a7a5;
+	}
+.vlinks{
+	position:relative;
+	float:right;font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a7a7a5;}
+.vlinks{color:#a7a7a5;}
+.header{
+		background-image:url(../img/03.png);
+		width:980px;
+		height:141px;}
+.height{
+	height:30px;}
+.logo{
+	position:relative;
+	float:left;
+	background-image:url(../img/04.png);
+	width:369px;
+	height:139px;}
+.nav{
+	position:relative;
+	float:right;}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+
+	margin-left: auto;
+  margin-right: auto;
+  padding-top:60px;
+
+	}
+.menu ul {
+			width:390px;
+		overflow:hidden;
+		padding:9px 0 9px 0;
+		position:relative;
+		
+		list-style:none;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		
+						color:#000;
+	
+		}
+.menu ul li {	
+			float:left;
+			
+			padding:0 10px 0 10px;
+			font-family:"Times New Roman", Times, serif;
+			font-size:18px;
+			color:#383832;
+			}
+.menu ul li:first-child {
+			background:none;
+			}
+.menu ul li a {
+				float:left;
+				text-decoration:none;
+			padding:9px 0 9px 0;
+			font-family:"Times New Roman", Times, serif;
+			font-size:18px;
+					color:#383832;
+				}
+.menu ul li a:hover {
+				text-decoration:none;
+				color:#FC0;		
+				overflow:hidden;
+		padding:9px 0 9px 0;
+		position:relative;
+		
+				}
+.menucenter{
+	position:relative;
+	margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+
+.mainmenu {
+
+	margin-left: auto;
+  margin-right: auto;
+  
+
+	}
+.mainmenu ul {
+			width:980px;
+		overflow:hidden;
+		 font-family: 'swis721_btroman';
+		position:relative;
+		background-image:url(../img/01.jpg);
+		
+		list-style:none;
+		padding: 0;
+		font-size:16px;
+		
+						color:#000;
+	
+		}
+.mainmenu ul li {	
+			float:left;
+			text-transform:uppercase;
+			 font-family: 'swis721_btroman';
+			padding:0 20px 0 20px;
+		
+			font-size:16px;
+			color:#333;
+			}
+.mainmenu ul li:first-child {
+			background:none;
+			}
+.mainmenu ul li a {
+				float:left;
+				text-decoration:none;
+			padding:9px 0 9px 0;
+			 font-family: 'swis721_btroman';
+			 font-weight:bold;
+			font-size:16px;
+					color:#333;
+				}
+.mainmenu ul li a:hover {
+				text-decoration:underline;
+				color:#000;
+						
+				overflow:hidden;
+		position:relative;
+		
+				}
+.mainmenucenter{
+	position:relative;
+	margin-left: auto;
+  margin-right: auto;
+ 
+}
+.mainimg{	margin-left: auto;
+  margin-right: auto;
+
+	width:930px;
+	height:334px;
+	background:url(../img/05.png) no-repeat;}
+.mainlinks{margin-left: auto;
+  margin-right: auto;
+  margin-top:25px;
+  margin-bottom:25px;
+	background-color:#e7e7e0;
+	width:930px;
+	height:169px;}
+.maincontent{margin-left: auto;
+  margin-right: auto;
+	width:930px;}
+.hotels{
+	position:relative;
+	float:left;
+	width:293px;
+	}
+.rest{
+	position:relative;
+	float:left;
+	margin-left:25px;}
+.news{
+	position:relative;
+	float:left;
+	margin-left:25px;}
+.title{
+	width:268px;
+	height:39px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding-top:15px;
+	padding-left:25px;
+	color:#000;
+	background-color:#fdec37;}
+.one{
+	position:relative;
+	padding-top:35px;
+}
+.hotelimg{
+	position:relative;
+	float:left;}
+.hoteltext{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:1.5;
+	color:#7c7475;
+	position:relative;
+	float:left;
+	padding-left:20px;
+	width:165px; }
+.hoteltext1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:1.5;
+	color:#7c7475;
+	position:relative;
+	float:left;
+	width:250px;
+ }
+.hoteltext a{ font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#eca208;}
+.hoteltext1 a{ font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#eca208;}
+.hoteltext a:hover{
+	text-decoration:none;}
+	.hoteltext1 a:hover{
+	text-decoration:none;}
+.text1{
+	color:#bebebe;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	
+	}
+.see{
+	position:relative;
+	float:right;}
+.see a{
+	color:#30302b;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;}
+.see a:hover{
+	text-decoration:none;}
+.mainfooter{	position:relative;
+margin-top:0;
+	margin-left: auto;
+  margin-right: auto;
+	width:980px;
+	height:267px;
+	background-color:#000;}
+.text2{padding-top:20px;
+	padding-left:35px;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;}
+.mainfooter ul{
+	position:relative;
+	float:left;
+	color:#999794;
+	width:120px;
+	list-style:url(../img/12.png);}
+.mainfooter ul li a{color:#999794; text-decoration:none;}
+.mainfooter ul li a:hover{ text-decoration:underline;
+	}
+.text3{ font-family:Arial, Helvetica, sans-serif;
+font-size:18px; padding-top:20px;
+	padding-left:35px;
+color:#000;}
+.mainlinks ul{
+	position:relative;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+	color:#0d0d0d;
+	width:110px;
+	list-style:url(../img/13.png);}
+.mainlinks ul li a{color:#0d0d0d; text-decoration:none;}
+.mainlinks ul li a:hover{ text-decoration:underline;
+	}
+.mainimg ul{
+	position:relative;
+	
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:right;
+	color:#2a2a2a;
+	width:130px;
+	list-style:url(../img/14.png);}
+.mainimg ul li a{color:#2a2a2a; text-decoration:none;}
+.mainimg ul li a:hover{ text-decoration:underline;
+	}
+.center {
+	position:relative;
+	margin-left:100px;
+
+	padding-top:150px;}
+
