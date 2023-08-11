@@ -6,12 +6,9 @@ This repository is not maintained, it is only here for historical reasons. It wa
 
 Demo: [https://wintercounter.github.io/uipro](https://wintercounter.github.io/uipro)
 
-![80.png](mini.png)
+![80.png](Mini.png)
 
 ![big-cover2.png](big-cover.png)
-
-![anim_syntax.png](sc1.png)
-![anim_syntax.png](sc2.png)
 
 <h3>Description</h3>
 With this simple <strong>jQuery Plugin</strong> you can easily create <strong>Metro</strong> (now simply called Windows 8 UI) style navigation bars. The plugin package comes with the icon pack called <strong>iconic</strong> created by <strong>P.J. Onori</strong>, which you can easily set with CSS classes. This plugin has minimal features and options, it has been created for webmasters who need similar functionality on their site(s).
@@ -26,3 +23,6 @@ With this simple <strong>jQuery Plugin</strong> you can easily create <strong>Me
 <li>Left or/and Right panel</li>
 <li>Easy customization</li>
 </ul>
+
+![anim_syntax.png](sc1.png)
+![anim_syntax.png](sc2.png)

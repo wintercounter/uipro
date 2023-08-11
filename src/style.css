@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
+
+.uipro{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    -webkit-transition: all 0.3s ease-in-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
+    -o-transition: all 0.3s ease-in-out;  /* Opera 10.5–12.00 */
+    transition: all 0.3s ease-in-out;  /* Firefox 16+, Opera 12.50+ */
+    background: #111111;
+}
+
+#uipro_left{
+    left: -100px; /* Same as width (+ border width) * -1 */
+    width: 100px;
+}
+
+#uipro_left.active{
+    left: 0;
+}
+
+#uipro_right{
+    right: -100px; /* Same as width (+ border width) * -1 */
+    width: 100px;
+}
+
+#uipro_right.active{
+    right: 0;
+    display: block;
+}
+
+.uipro ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 50%;
+}
+
+.uipro ul li{
+    float: left;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.uipro ul li a{
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    line-height: 150px;
+    background-position: center 20px;
+    background-repeat: no-repeat;
+}
+
+.uipro ul li a:hover{
+    background-color: #333;
+}
+
+/* Icons */
+
+.icon_ampersand{background-image: url(img/ampersand.svg)}.icon_aperture{background-image: url(img/aperture.svg)}.icon_aperture_alt{background-image: url(img/aperture_alt.svg)}.icon_arrow_down{background-image: url(img/arrow_down.svg)}.icon_arrow_down_alt1{background-image: url(img/arrow_down_alt1.svg)}.icon_arrow_down_alt2{background-image: url(img/arrow_down_alt2.svg)}.icon_arrow_left{background-image: url(img/arrow_left.svg)}.icon_arrow_left_alt1{background-image: url(img/arrow_left_alt1.svg)}.icon_arrow_left_alt2{background-image: url(img/arrow_left_alt2.svg)}.icon_arrow_right{background-image: url(img/arrow_right.svg)}.icon_arrow_right_alt1{background-image: url(img/arrow_right_alt1.svg)}.icon_arrow_right_alt2{background-image: url(img/arrow_right_alt2.svg)}.icon_arrow_up{background-image: url(img/arrow_up.svg)}.icon_arrow_up_alt1{background-image: url(img/arrow_up_alt1.svg)}.icon_arrow_up_alt2{background-image: url(img/arrow_up_alt2.svg)}.icon_article{background-image: url(img/article.svg)}.icon_at{background-image: url(img/at.svg)}.icon_award_fill{background-image: url(img/award_fill.svg)}.icon_award_stroke{background-image: url(img/award_stroke.svg)}.icon_bars{background-image: url(img/bars.svg)}.icon_bars_alt{background-image: url(img/bars_alt.svg)}.icon_battery_charging{background-image: url(img/battery_charging.svg)}.icon_battery_empty{background-image: url(img/battery_empty.svg)}.icon_battery_full{background-image: url(img/battery_full.svg)}.icon_battery_half{background-image: url(img/battery_half.svg)}.icon_beaker{background-image: url(img/beaker.svg)}.icon_beaker_alt{background-image: url(img/beaker_alt.svg)}.icon_bolt{background-image: url(img/bolt.svg)}.icon_book{background-image: url(img/book.svg)}.icon_book_alt{background-image: url(img/book_alt.svg)}.icon_book_alt2{background-image: url(img/book_alt2.svg)}.icon_box{background-image: url(img/box.svg)}.icon_brush{background-image: url(img/brush.svg)}.icon_brush_alt{background-image: url(img/brush_alt.svg)}.icon_calendar{background-image: url(img/calendar.svg)}.icon_calendar_alt_fill{background-image: url(img/calendar_alt_fill.svg)}.icon_calendar_alt_stroke{background-image: url(img/calendar_alt_stroke.svg)}.icon_camera{background-image: url(img/camera.svg)}.icon_cd{background-image: url(img/cd.svg)}.icon_chart{background-image: url(img/chart.svg)}.icon_chart_alt{background-image: url(img/chart_alt.svg)}.icon_chat{background-image: url(img/chat.svg)}.icon_chat_alt_fill{background-image: url(img/chat_alt_fill.svg)}.icon_chat_alt_stroke{background-image: url(img/chat_alt_stroke.svg)}.icon_check{background-image: url(img/check.svg)}.icon_check_alt{background-image: url(img/check_alt.svg)}.icon_clock{background-image: url(img/clock.svg)}.icon_cloud{background-image: url(img/cloud.svg)}.icon_cloud_download{background-image: url(img/cloud_download.svg)}.icon_cloud_upload{background-image: url(img/cloud_upload.svg)}.icon_cog{background-image: url(img/cog.svg)}.icon_comment_alt1_fill{background-image: url(img/comment_alt1_fill.svg)}.icon_comment_alt1_stroke{background-image: url(img/comment_alt1_stroke.svg)}.icon_comment_alt2_fill{background-image: url(img/comment_alt2_fill.svg)}.icon_comment_alt2_stroke{background-image: url(img/comment_alt2_stroke.svg)}.icon_comment_fill{background-image: url(img/comment_fill.svg)}.icon_comment_stroke{background-image: url(img/comment_stroke.svg)}.icon_compass{background-image: url(img/compass.svg)}.icon_cursor{background-image: url(img/cursor.svg)}.icon_curved_arrow{background-image: url(img/curved_arrow.svg)}.icon_denied{background-image: url(img/denied.svg)}.icon_dial{background-image: url(img/dial.svg)}.icon_document_alt_fill{background-image: url(img/document_alt_fill.svg)}.icon_document_alt_stroke{background-image: url(img/document_alt_stroke.svg)}.icon_document_fill{background-image: url(img/document_fill.svg)}.icon_document_stroke{background-image: url(img/document_stroke.svg)}.icon_download{background-image: url(img/download.svg)}.icon_eject{background-image: url(img/eject.svg)}.icon_equalizer{background-image: url(img/equalizer.svg)}.icon_eye{background-image: url(img/eye.svg)}.icon_eyedropper{background-image: url(img/eyedropper.svg)}.icon_first{background-image: url(img/first.svg)}.icon_folder_fill{background-image: url(img/folder_fill.svg)}.icon_folder_stroke{background-image: url(img/folder_stroke.svg)}.icon_fork{background-image: url(img/fork.svg)}.icon_fullscreen{background-image: url(img/fullscreen.svg)}.icon_fullscreen_alt{background-image: url(img/fullscreen_alt.svg)}.icon_fullscreen_exit{background-image: url(img/fullscreen_exit.svg)}.icon_fullscreen_exit_alt{background-image: url(img/fullscreen_exit_alt.svg)}.icon_hash{background-image: url(img/hash.svg)}.icon_headphones{background-image: url(img/headphones.svg)}.icon_heart_fill{background-image: url(img/heart_fill.svg)}.icon_heart_stroke{background-image: url(img/heart_stroke.svg)}.icon_home{background-image: url(img/home.svg)}.icon_image{background-image: url(img/image.svg)}.icon_info{background-image: url(img/info.svg)}.icon_iphone{background-image: url(img/iphone.svg)}.icon_key_fill{background-image: url(img/key_fill.svg)}.icon_key_stroke{background-image: url(img/key_stroke.svg)}.icon_last{background-image: url(img/last.svg)}.icon_layers{background-image: url(img/layers.svg)}.icon_layers_alt{background-image: url(img/layers_alt.svg)}.icon_left_quote{background-image: url(img/left_quote.svg)}.icon_left_quote_alt{background-image: url(img/left_quote_alt.svg)}.icon_lightbulb{background-image: url(img/lightbulb.svg)}.icon_link{background-image: url(img/link.svg)}.icon_list{background-image: url(img/list.svg)}.icon_list_nested{background-image: url(img/list_nested.svg)}.icon_lock_fill{background-image: url(img/lock_fill.svg)}.icon_lock_stroke{background-image: url(img/lock_stroke.svg)}.icon_loop{background-image: url(img/loop.svg)}.icon_loop_alt1{background-image: url(img/loop_alt1.svg)}.icon_loop_alt2{background-image: url(img/loop_alt2.svg)}.icon_loop_alt3{background-image: url(img/loop_alt3.svg)}.icon_loop_alt4{background-image: url(img/loop_alt4.svg)}.icon_magnifying_glass{background-image: url(img/magnifying_glass.svg)}.icon_mail{background-image: url(img/mail.svg)}.icon_map_pin_alt{background-image: url(img/map_pin_alt.svg)}.icon_map_pin_fill{background-image: url(img/map_pin_fill.svg)}.icon_map_pin_stroke{background-image: url(img/map_pin_stroke.svg)}.icon_mic{background-image: url(img/mic.svg)}.icon_minus{background-image: url(img/minus.svg)}.icon_minus_alt{background-image: url(img/minus_alt.svg)}.icon_moon_fill{background-image: url(img/moon_fill.svg)}.icon_moon_stroke{background-image: url(img/moon_stroke.svg)}.icon_move{background-image: url(img/move.svg)}.icon_move_alt1{background-image: url(img/move_alt1.svg)}.icon_move_alt2{background-image: url(img/move_alt2.svg)}.icon_move_horizontal{background-image: url(img/move_horizontal.svg)}.icon_move_horizontal_alt1{background-image: url(img/move_horizontal_alt1.svg)}.icon_move_horizontal_alt2{background-image: url(img/move_horizontal_alt2.svg)}.icon_move_vertical{background-image: url(img/move_vertical.svg)}.icon_move_vertical_alt1{background-image: url(img/move_vertical_alt1.svg)}.icon_move_vertical_alt2{background-image: url(img/move_vertical_alt2.svg)}.icon_movie{background-image: url(img/movie.svg)}.icon_new_window{background-image: url(img/new_window.svg)}.icon_paperclip{background-image: url(img/paperclip.svg)}.icon_pause{background-image: url(img/pause.svg)}.icon_pen{background-image: url(img/pen.svg)}.icon_pen_alt2{background-image: url(img/pen_alt2.svg)}.icon_pen_alt_fill{background-image: url(img/pen_alt_fill.svg)}.icon_pen_alt_stroke{background-image: url(img/pen_alt_stroke.svg)}.icon_pilcrow{background-image: url(img/pilcrow.svg)}.icon_pin{background-image: url(img/pin.svg)}.icon_play{background-image: url(img/play.svg)}.icon_play_alt{background-image: url(img/play_alt.svg)}.icon_plus{background-image: url(img/plus.svg)}.icon_plus_alt{background-image: url(img/plus_alt.svg)}.icon_question_mark{background-image: url(img/question_mark.svg)}.icon_rain{background-image: url(img/rain.svg)}.icon_read_more{background-image: url(img/read_more.svg)}.icon_reload{background-image: url(img/reload.svg)}.icon_reload_alt{background-image: url(img/reload_alt.svg)}.icon_right_quote{background-image: url(img/right_quote.svg)}.icon_right_quote_alt{background-image: url(img/right_quote_alt.svg)}.icon_rss{background-image: url(img/rss.svg)}.icon_rss_alt{background-image: url(img/rss_alt.svg)}.icon_share{background-image: url(img/share.svg)}.icon_spin{background-image: url(img/spin.svg)}.icon_spin_alt{background-image: url(img/spin_alt.svg)}.icon_star{background-image: url(img/star.svg)}.icon_steering_wheel{background-image: url(img/steering_wheel.svg)}.icon_stop{background-image: url(img/stop.svg)}.icon_sun_fill{background-image: url(img/sun_fill.svg)}.icon_sun_stroke{background-image: url(img/sun_stroke.svg)}.icon_tag_fill{background-image: url(img/tag_fill.svg)}.icon_tag_stroke{background-image: url(img/tag_stroke.svg)}.icon_target{background-image: url(img/target.svg)}.icon_transfer{background-image: url(img/transfer.svg)}.icon_trash_fill{background-image: url(img/trash_fill.svg)}.icon_trash_stroke{background-image: url(img/trash_stroke.svg)}.icon_umbrella{background-image: url(img/umbrella.svg)}.icon_undo{background-image: url(img/undo.svg)}.icon_unlock_fill{background-image: url(img/unlock_fill.svg)}.icon_unlock_stroke{background-image: url(img/unlock_stroke.svg)}.icon_upload{background-image: url(img/upload.svg)}.icon_user{background-image: url(img/user.svg)}.icon_volume{background-image: url(img/volume.svg)}.icon_volume_mute{background-image: url(img/volume_mute.svg)}.icon_wrench{background-image: url(img/wrench.svg)}.icon_x{background-image: url(img/x.svg)}.icon_x_alt{background-image: url(img/x_alt.svg)}
